@@ -1,5 +1,6 @@
 /**
  * Java 1, HomeWork 2
+ *
  * @author Dovgalskiy Yaroslav
  * @version 13.02.2022
  */
