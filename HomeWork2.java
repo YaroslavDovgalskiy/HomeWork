@@ -5,14 +5,13 @@
  * @version 13.02.2022
  */
 
-package HomeWork;
 
-class homeWork2 {
+class HomeWork2 {
     public static void main(String[] args) {
         boolean resalt1 = within10and20(10, 7);
         System.out.println(resalt1);
         isPositiveOrNegative(-2);
-        boolean resalt2 = isNegative(-3);
+        boolean resalt2 = isNegative(5);
         System.out.println(resalt2);
         printWordNTimes("HelloWorld",7);
     }
@@ -26,11 +25,8 @@ class homeWork2 {
     }
 
     static boolean isNegative(int x) {
-        if (x < 0) {
-            return true;
-        } else
-            return false;
-    }
+        return (x < 0);
+	}
 
     static void printWordNTimes(String word, int times) {
         for (int i = 1; i <= times; i++) {
